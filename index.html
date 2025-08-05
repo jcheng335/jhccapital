@@ -1,0 +1,82 @@
+<\!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - JHC Capital LLC</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">JHC Capital LLC</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" style="background-image: url('https://source.unsplash.com/1600x900/?office,business,light')">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>Welcome to JHC Capital LLC</h1>
+                <p class="hero-subtitle">Strategic Investment Solutions for Your Financial Future</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary">Our Services</a>
+                    <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2>Building Wealth Through Strategic Investments</h2>
+            <p>At JHC Capital LLC, we specialize in providing comprehensive investment management and financial advisory services tailored to your unique goals. Our experienced team combines market expertise with personalized strategies to help you achieve long-term financial success.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>Portfolio Management</h3>
+                    <p>Customized investment strategies designed to optimize returns while managing risk according to your objectives.</p>
+                </div>
+                <div class="feature">
+                    <h3>Financial Planning</h3>
+                    <p>Comprehensive financial planning services to help you navigate complex financial decisions with confidence.</p>
+                </div>
+                <div class="feature">
+                    <h3>Risk Assessment</h3>
+                    <p>Thorough risk analysis and mitigation strategies to protect and grow your wealth in any market condition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Ready to Start Your Investment Journey?</h2>
+            <p>Contact us today to schedule a consultation and discover how JHC Capital can help you achieve your financial goals.</p>
+            <a href="contact.html" class="btn btn-primary">Schedule Consultation</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 JHC Capital LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
